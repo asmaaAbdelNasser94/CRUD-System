@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap");
+
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+}
+.title{
+    background-color: rgba(78, 36, 83, 0.439) !important;
+    font-size: 25px;
+}
+.title h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+input{
+    margin: 10px 0;
+    background-color: rgb(19, 19, 19) !important;
+    color: #fff !important;
+    border-style: none !important;
+    padding: 10px !important;
+    transition: 0.8s !important;
+}
+#category{
+    margin-top: 20px;
+}
+input:focus {
+    background-color: rgb(0, 0, 0) !important ;
+    transform: scale(1.1);
+}
+.formBtn{
+    border-radius: 20px;
+    background-color: rgb(78, 36, 83) !important;
+    margin: 15px 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px;
+    border-style: none;
+    transition: 0.8s;
+    box-shadow:  0.5rem 1rem rgba(0, 0, 0, 0.015) !important;
+}
+.formBtn:hover{
+    letter-spacing: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.614);
+    background-color: rgb(113, 55, 119) !important;
+    transform: scale(1.1);
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price input{
+    width: 20%;
+}
+.price p{
+    background-color: rgb(168, 40, 31);
+    padding: 8px;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+.price p::before{
+    content: 'Total : ';
+}
+#createBtn , #deleteAllBtn{
+    width: 100%;
+}
+.searchBtns{
+    display: flex;
+    justify-content: space-between;
+}
+.searchBtns button{
+    width: 45%;
+}
+
+.table .smallBtn{
+    margin: 0;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+
+.tableData{
+    text-transform: capitalize;
+}
